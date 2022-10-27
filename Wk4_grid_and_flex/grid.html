@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container {
+            width: 680px;
+            height: 410px;
+            background-color: black;
+            margin: 10% 10% auto;
+            display:grid;
+            padding: 22px 145px 35px 46px;
+            gap: 10px 10px;
+            grid-template-columns: 3fr 1fr 2fr;
+            grid-template-rows: 2fr 1fr 1fr;
+        }
+
+        .container div {
+            /*border: 1px solid white; */
+        }
+
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            background-color: rgb(235, 80, 32);
+        }
+
+        .item2 {
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            background-color: rgb(255, 164, 1);
+        }
+
+        .item3 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: rgb(5, 170, 66);
+        }
+
+        .item4 {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-color: rgb(1, 174, 253);
+        }
+
+        .item5 {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            background-color: rgb(1, 174, 253);
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+    </div>
+</body>
+</html>
