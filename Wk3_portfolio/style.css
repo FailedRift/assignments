@@ -1,0 +1,194 @@
+body {
+  background-image: url(bground1.jpg);
+  font-family: "Josefin Sans";
+}
+* {
+  box-sizing: border-box;
+}
+nav {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  font-size: 18pt;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(30, 170, 100);
+  border-bottom: 1px solid darkblue;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a:hover {
+  color: rgba(22, 155, 93, 0.5);
+  border-bottom: 1px solid darkslategrey;
+}
+
+nav img {
+  justify-content: flex-start;
+  height: 70px;
+  width: 70px;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+  /* border: 1px solid; */
+}
+
+@media screen and (max-width: 400px) {
+  .welcome {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+}
+
+.my-name {
+  flex: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  font-size: 30px;
+  /* border: 1px solid; */
+  width: 600px;
+}
+
+.my-name h1 {
+  font-family: "Catamaran";
+  color: rgb(30, 170, 100);
+  font-weight: bolder;
+  text-decoration: overline;
+}
+
+.my-name p {
+  font-family: "Source Sans Pro";
+  font-weight: bolder;
+}
+.profile-pic {
+  display: flex;
+  flex-direction: column;
+  flex: 600px;
+  margin: 10px;
+  justify-content: center;
+  /* border: 1px solid; */
+  width: 600px;
+  align-items: center;
+}
+
+.profile-pic img {
+  width: 80%;
+  margin: 10px;
+}
+
+
+.services {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.services-item {
+  width: 300px;
+  border-radius: 25px;
+  flex: 400px;
+  box-shadow: 0 0 15px 4px rgba(30, 170, 100, 0.06);
+  margin: 15px;
+  padding: 2%;
+  background-color: whitesmoke;
+}
+
+.services-item p {
+  font-size: 18pt;
+}
+
+.services-item h2 {
+  color: rgb(30, 170, 100);
+  font-family: "Catamaran";
+}
+
+.projects {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: block;
+  justify-content: center;
+}
+
+.project-item {
+  width: 50%;
+  box-shadow: 0 0 15px 4px rgba(30, 170, 100, 0.06);
+  background-color: beige;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  padding: 20px;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.project-item a {
+  text-decoration: none;
+  color: rgb(30, 170, 100);
+}
+
+.project-item a:hover {
+  color: rgba(22, 155, 93, 0.5);
+}
+
+.project-item img {
+    height: auto;
+  width: 100px;
+}
+footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+footer li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+footer a {
+  text-decoration: none;
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+}
+
+.profile-pic img {
+  max-width: 600px;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+  font-family: "Catamaran";
+  color: rgb(30, 170, 100);
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: overline;
+}

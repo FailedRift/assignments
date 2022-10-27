@@ -1,0 +1,164 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18pt;
+    background-image: url(media/ISSEarth.jpg);
+  }
+
+  nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+    }
+
+  nav a {
+    display:inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 2px solid blue;
+    color: #ddd;
+    border-bottom: 1px solid darkblue;
+  }
+
+  nav a:hover {
+    color: aquamarine;
+    border-bottom: 1px solid darkslategrey;
+  }
+
+  .masthead {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30pt;
+    color:rgb(255, 255, 255);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+
+
+nav img {
+    display:inline;
+    height: 50px;
+    width: 50px;
+
+    
+  }
+
+  .left-side {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .form-block {
+    background-color: rgb(217, 235, 250);
+    border-bottom: 1px solid rgba(151, 204, 228, 0.4);
+    border-top: 2px solid rgb(69, 193, 250);
+    border-radius: 5px;
+    padding: 20px;
+    
+  }
+
+  .form-block img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+  }
+
+  footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid darkcyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+  }
+  
+  .terms {
+    font-size: 16px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 300px;
+  }
+
+  input[type=checkbox] {
+    height: 16px;
+    box-shadow: none;
+  }
+  
+  input, select {
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    border: 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+
+
+  .form-element {
+    display: flex;
+    margin: 10px 10px 20px;
+    justify-content: space-between;
+  }
+
+  .submit {
+    display: flex;
+    width: 50%;
+    margin: 10px auto;
+    justify-content: center;
+  }
+  
+  button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #008CBA;
+  
+  }
+  
+  button:hover {
+    background-color:darkcyan;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #ddd;
+  }
+
+  a {
+    text-decoration: none;
+    color:darkcyan;
+    }
+
+  a:hover {
+    text-decoration: none;
+    color:cyan;
+  }
+
+
+  

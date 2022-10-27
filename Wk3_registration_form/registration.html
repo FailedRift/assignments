@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="masthead"> FailedRift </div>
+      <div>
+        <a href="#">Home</a>
+        <a href="#">Sign In</a>
+        <a href="#">Sign Up</a>
+      </div>
+    </nav>
+    <main>
+      <div class="left-side">
+        <div class="form-block">
+          <img src="logo.jpeg">
+          <h2>Sign Up for a new account</h2>
+          <form action="home.html">
+            <div class="form-element">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div class="form-element">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+            <div class="form-element">
+              <label for="phone-number">Phone Number</label>
+              <input
+                type="tel"
+                id="phone-number"
+                name="phone-number"
+                required
+              />
+            </div>
+            <div class="form-element">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-element">
+              <label for="gender">Gender:</label>
+              <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female" selected>Female</option>
+                <option value="other">Other</option>
+                <option value="not-say">Not Saying</option>
+              </select>
+            </div>
+            <div class="form-element">
+              <label for="birthdate">Date of Birth</label>
+              <input type="date" id="birthdate" name="birthdate" required />
+            </div>
+            <div class="form-element">
+              <label for="favcolor">Select your favorite color:</label>
+              <input
+                type="color"
+                id="favcolor"
+                name="favcolor"
+                value="#ff0000"
+              />
+            </div>
+            <div class="form-element">
+             <span class="terms">I accept the <a href="#">terms and conditions</a></span>
+              <input
+                type="checkbox"
+                required
+                name="terms-and-conditions"
+              />
+            </div>
+            <div class="submit">
+              <button type="submit">Sign Up!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>All rights reserved to <a href="https://failedrift.substack.com/">The FailedRift</a><br />
+      Nsukka<br />
+      Enugu<br />
+      Nigeria</footer>
+  </body>
+</html>
