@@ -8,6 +8,8 @@ Weekly assigments are added as branches to the repository and are mostly written
 
 They should a gradual improvement in skillset in the frontend stack. 
 
+Also learned how version control with git and github
+
 
 
 
